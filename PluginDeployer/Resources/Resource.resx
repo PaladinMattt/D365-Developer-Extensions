@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PluginDeployer_Window_Title" xml:space="preserve">
+    <value>D365 DevEx: Plug-in Deployer</value>
+  </data>
+  <data name="PluginDeployer_Publish_Button_Content" xml:space="preserve">
+    <value>Publish</value>
+  </data>
+  <data name="PluginDeployer_Publish_Button_ToolTip" xml:space="preserve">
+    <value>Publish to CRM/365</value>
+  </data>
+  <data name="PluginDeployer_IlMerge_Button_Content" xml:space="preserve">
+    <value>ILMerge</value>
+  </data>
+  <data name="PluginDeployer_IlMerge_Button_ToolTip" xml:space="preserve">
+    <value>Toggle ILMerging Referenced Assemblies</value>
+  </data>
+  <data name="PluginDeployer_AddRegistration_Button_Content" xml:space="preserve">
+    <value>Add Registration</value>
+  </data>
+  <data name="PluginDeployer_AddRegistration_Button_ToolTip" xml:space="preserve">
+    <value>Add Spkl registration attributes</value>
+  </data>
+  <data name="PluginDeployer_RegistrationTool_Button_Content" xml:space="preserve">
+    <value>Registration Tool</value>
+  </data>
+  <data name="PluginDeployer_RegistrationTool_Button_ToolTip" xml:space="preserve">
+    <value>Launch Plug-in Registration Tool</value>
+  </data>
+  <data name="PluginDeployer_SolutionLabel_Label_Content" xml:space="preserve">
+    <value>Solution</value>
+  </data>
+  <data name="PluginDeployer_DeploymentType_Label_Toolip" xml:space="preserve">
+    <value>Assembly Only ignores the config file and deploys the assembly created by the current Visual Studio build configuration - Spkl deploys the assembly located in the assemblypath location in the config file</value>
+  </data>
+  <data name="ErrorMessage_ErrorRetrievingAssembly" xml:space="preserve">
+    <value>Error retrieving assembly</value>
+  </data>
+  <data name="ErrorMessage_ErrorCreatingOrUpdatingAssembly" xml:space="preserve">
+    <value>Error creating or updating assembly</value>
+  </data>
+  <data name="ErrorMessage_ErrorAddingAssemblySolution" xml:space="preserve">
+    <value>Error adding assembly to solution</value>
+  </data>
+  <data name="Message_AssemblyAddedSolution" xml:space="preserve">
+    <value>Assembly added to solution</value>
+  </data>
+  <data name="ErrorMessage_ErrorCheckingAssemblyInSolution" xml:space="preserve">
+    <value>Error checking for assembly in solution</value>
+  </data>
+  <data name="ErrorMessage_ErrorRetrievingSolutions" xml:space="preserve">
+    <value>Error retrieving solutions</value>
+  </data>
+  <data name="ErrorMessage_ErrorAddingWebResourceSolution" xml:space="preserve">
+    <value>Error adding web resource to solution</value>
+  </data>
+  <data name="Message_NewWebResourceAddedSolution" xml:space="preserve">
+    <value>New web resource added to solution</value>
+  </data>
+  <data name="ErrorMessage_ErrorInstallingILMerge" xml:space="preserve">
+    <value>Error installing MSBuild.ILMerge.Task</value>
+  </data>
+  <data name="ErrorMessage_ErrorUninstallingILMerge" xml:space="preserve">
+    <value>Error uninstalling MSBuild.ILMerge.Task</value>
+  </data>
+  <data name="Message_ILMergeInstalled" xml:space="preserve">
+    <value>MSBuild.ILMerge.Task installed</value>
+  </data>
+  <data name="Message_ILMergeUninstalled" xml:space="preserve">
+    <value>MSBuild.ILMerge.Task uninstalled</value>
+  </data>
+  <data name="Message_NoRegistrationDetails" xml:space="preserve">
+    <value>You haven't added any registration details to the assembly class</value>
+  </data>
+  <data name="Message_UpdatingMajorMinorRequireRedeployment" xml:space="preserve">
+    <value>Error updating assembly: changes to major &amp; minor versions require redeployment</value>
+  </data>
+  <data name="Message_UpdatingNameRequireRedeployment" xml:space="preserve">
+    <value>Error updating assembly: changes to assembly name require redeployment</value>
+  </data>
+  <data name="Message_AssemblyPathEmpty" xml:space="preserve">
+    <value>Assembly path is empty</value>
+  </data>
+  <data name="MessageBox_ErrorLocatingAssemblyPath" xml:space="preserve">
+    <value>Error locating assembly path</value>
+  </data>
+  <data name="PluginDeployer_ProjectNameLabel_Label_Content" xml:space="preserve">
+    <value>Project Name</value>
+  </data>
+  <data name="PluginDeployer_OpenInCrmImage_Button_ToolTip" xml:space="preserve">
+    <value>Open in CRM/365</value>
+  </data>
+  <data name="PluginDeployer_DeploymentTypeLabel_Label_Content" xml:space="preserve">
+    <value>Deployment Type</value>
+  </data>
+  <data name="PluginDeployer_BackupFilesLabel_Label_Content" xml:space="preserve">
+    <value>Backup Files?</value>
+  </data>
+  <data name="Message_RetrievingSolutions" xml:space="preserve">
+    <value>Retrieving solutions</value>
+  </data>
+  <data name="MessageBox_ErrorRetrievingSolutions" xml:space="preserve">
+    <value>Error retrieving solutions</value>
+  </data>
+  <data name="Message_RetrievedSolutions" xml:space="preserve">
+    <value>Retrieved solutions</value>
+  </data>
+  <data name="Message_Deploying" xml:space="preserve">
+    <value>Deploying</value>
+  </data>
+  <data name="MEssageBox_ErrorDeployingAssembly" xml:space="preserve">
+    <value>Error deploying assembly</value>
+  </data>
+  <data name="MessageBox_ErrorAddingAssemblyToSolution" xml:space="preserve">
+    <value>Error adding assembly to solution</value>
+  </data>
+  <data name="MessageBox_MissingPluginsSpklConfig" xml:space="preserve">
+    <value>Missing 'plugins' configuration in configuration file</value>
+  </data>
+  <data name="MessageBox_MissingAssemblyPathSpklConfig" xml:space="preserve">
+    <value>Missing 'assemblypath' in 'plugins' configuration in configuration file</value>
+  </data>
+  <data name="Message_AddingRegistrationDetails" xml:space="preserve">
+    <value>Adding registration details</value>
+  </data>
+  <data name="MessageBox_SetPRTOptionsPath" xml:space="preserve">
+    <value>Set Plug-in Registration Tool path under Tools -&gt; Options -&gt; D365 DevEx</value>
+  </data>
+  <data name="MessageBox_PRTNotFound" xml:space="preserve">
+    <value>PluginRegistration.exe not found</value>
+  </data>
+  <data name="ErrorMessage_ErrorLaunchingPRT" xml:space="preserve">
+    <value>Error launching Plug-in Registration Tool</value>
+  </data>
+  <data name="Message_RetrievedAssembly" xml:space="preserve">
+    <value>Retrieved assembly</value>
+  </data>
+  <data name="Message_CreatedAssembly" xml:space="preserve">
+    <value>Created assembly</value>
+  </data>
+  <data name="Message_UpdatedAssembly" xml:space="preserve">
+    <value>Updated assembly</value>
+  </data>
+  <data name="Message_AssemblyInSolution" xml:space="preserve">
+    <value>Assembly in solution</value>
+  </data>
+  <data name="Error_ErrorBuildingProject" xml:space="preserve">
+    <value>Error building project</value>
+  </data>
+</root>

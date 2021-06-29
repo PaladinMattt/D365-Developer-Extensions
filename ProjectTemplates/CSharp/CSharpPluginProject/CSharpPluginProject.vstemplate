@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>D365 CE/CRM Plug-in Project</Name>
+    <Description>Dynamics 365 CE/CRM Plug-in Project</Description>
+    <Icon>icon.png</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>5d282679-4eda-46bc-a6ea-91a7f64899b8</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>CSharpPluginProject</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LanguageTag>C#</LanguageTag>
+    <PlatformTag>Windows</PlatformTag>
+    <PlatformTag>D365 CE</PlatformTag>
+    <!--<ProjectTypeTag>D365 CE</ProjectTypeTag>-->
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjectTemplate.csproj" File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>TemplateWizards, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Assembly>
+    <FullClassName>TemplateWizards.ProjectTemplateWizard</FullClassName>
+  </WizardExtension>
+  <WizardData>
+    <CRMProjectType>Plugin</CRMProjectType>
+    <NeedsCore>true</NeedsCore>
+    <NeedsWorkflow>false</NeedsWorkflow>
+    <NeedsClient>false</NeedsClient>
+    <IsUnitTest>false</IsUnitTest>
+    <IsUnitTestItem>false</IsUnitTestItem>
+    <SignAssembly>true</SignAssembly>
+  </WizardData>
+</VSTemplate>

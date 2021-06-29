@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GeneratingKeyFailureMessage" xml:space="preserve">
+    <value>Error generating key</value>
+  </data>
+  <data name="GeneratingKeyStatusBarMessage" xml:space="preserve">
+    <value>Generating Key...</value>
+  </data>
+  <data name="NpmPackageInstallFailureMessage" xml:space="preserve">
+    <value>Error installing NPM package</value>
+  </data>
+  <data name="NpmPackageInstallingStatusBarMessage" xml:space="preserve">
+    <value>Installing NPM package</value>
+  </data>
+  <data name="NpmPickerCancelButtonText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="NpmPickerCancelTooltipText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="NpmPickerOKButtonText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="NpmPickerOKTooltipText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="NuGetPackageInstallFailureMessage" xml:space="preserve">
+    <value>Error installing NuGet package</value>
+  </data>
+  <data name="NuGetPackageInstallingStatusBarMessage" xml:space="preserve">
+    <value>Installing NuGet package</value>
+  </data>
+  <data name="NuGetPackageUninstallingStatusBarMessage" xml:space="preserve">
+    <value>Uninstalling NuGet package</value>
+  </data>
+  <data name="NuGetPickerCancelButtonText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="NuGetPickerCancelTooltipText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="NuGetPickerOKButtonText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="NuGetPickerOKTooltipText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="SdkAssemblyCore" xml:space="preserve">
+    <value>Microsoft.CrmSdk.CoreAssemblies</value>
+  </data>
+  <data name="SdkAssemblyExtensions" xml:space="preserve">
+    <value>Microsoft.CrmSdk.Extensions</value>
+  </data>
+  <data name="SdkAssemblyWorkflow" xml:space="preserve">
+    <value>Microsoft.CrmSdk.Workflow</value>
+  </data>
+  <data name="SdkAssemblyXrmTooling" xml:space="preserve">
+    <value>Microsoft.CrmSdk.XrmTooling.CoreAssembly</value>
+  </data>
+  <data name="SdkVersionPickerCancelButtonText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="SdkVersionPickerCancelTooltipText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="SdkVersionPickerOKButtonText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="SdkVersionPickerOKTooltipText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="TestProjectPicker_CreateProject_Button_Tooltip" xml:space="preserve">
+    <value>Create a unit test project targeting the selected project &amp; the selected unit test framework</value>
+  </data>
+  <data name="TestProjectPicker_ProjectToTest_Label_Content" xml:space="preserve">
+    <value>Project To Test</value>
+  </data>
+  <data name="TestProjectPicker_Window_Title" xml:space="preserve">
+    <value>Unit testing framework</value>
+  </data>
+  <data name="TestProjectPicker_UnitTestFramework_Label_Content" xml:space="preserve">
+    <value>Unit Test Framework</value>
+  </data>
+  <data name="ErrorMessage_UnableReadDeserializeConfig" xml:space="preserve">
+    <value>Unable to read or deserialize template configuration file</value>
+  </data>
+  <data name="ErrorMessage_FailedToAddNuGetPackage" xml:space="preserve">
+    <value>Failed to add NuGet package</value>
+  </data>
+  <data name="MessageBox_MissingTemplateFolder" xml:space="preserve">
+    <value>Please specify a template folder under Tools -&gt; Options -&gt; D365 DevEx -&gt; Template Options</value>
+  </data>
+  <data name="ErrorMessage_NoSelectedTemplate" xml:space="preserve">
+    <value>TemplatePicker had no selected template</value>
+  </data>
+  <data name="MessageBox_CreateConfigFile" xml:space="preserve">
+    <value>Create custom template configuration file here?</value>
+  </data>
+  <data name="MessageBox_AddTemplateFiles" xml:space="preserve">
+    <value>Add template files and try again</value>
+  </data>
+  <data name="MessageBox_Title_ConfirmCreateConfigFile" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="CustomTemplatePicker_Window_Title" xml:space="preserve">
+    <value>Custom template</value>
+  </data>
+  <data name="CustomTemplateWindow_Ok_Button_Content" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="CustomTemplateWindow_Ok_Button_Tooltip" xml:space="preserve">
+    <value>Create item from template</value>
+  </data>
+  <data name="CustomTemplateWindow_Canel_Button_Content" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CustomTemplateWindow_Cancel_Button_Tooltip" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="NuGetPicker_LimitVersions_CheckBox_Content" xml:space="preserve">
+    <value>Latest Versions Only</value>
+  </data>
+  <data name="NuGetPackageUninstallFailureMessage" xml:space="preserve">
+    <value>Error uninstalling NuGet package</value>
+  </data>
+  <data name="ErrorMessage_TemplateWizardError" xml:space="preserve">
+    <value>Error occurred running template wizard</value>
+  </data>
+  <data name="MessageBox_AddCustomTemplate" xml:space="preserve">
+    <value>Add custom templates to continue</value>
+  </data>
+  <data name="ErrorMessage_ErrorProcessingTemplate" xml:space="preserve">
+    <value>Error processing template</value>
+  </data>
+  <data name="Version_Window_Title" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="TestProjectPicker_Cancel_Button_Content" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="TestProjectPicker_CreateProject_Button_Content" xml:space="preserve">
+    <value>Create Project</value>
+  </data>
+  <data name="Message_InstallingNuGetPackage" xml:space="preserve">
+    <value>Installing NuGet package</value>
+  </data>
+  <data name="Message_InstalledNuGetPackage" xml:space="preserve">
+    <value>Installed NuGet package</value>
+  </data>
+  <data name="Message_ErrorInstallingNuGetPackage" xml:space="preserve">
+    <value>Error installing NuGet package</value>
+  </data>
+  <data name="Message_TimeoutInstallingNuGetPackage" xml:space="preserve">
+    <value>Timeout installing NuGet package</value>
+  </data>
+  <data name="ConfirmMessage_UpdateUserSetting_Title" xml:space="preserve">
+    <value>Update user setting</value>
+  </data>
+  <data name="ConfirmMessage_UpdatePrtPath" xml:space="preserve">
+    <value>Update D365 DevEx Plug-in Registration Tool path?</value>
+  </data>
+  <data name="ConfirmMessage_UpdateCrmSvcUtilSolutionPackagerPath" xml:space="preserve">
+    <value>Update D365 DevEx CrmSvcUtil &amp; Solution Packager paths?</value>
+  </data>
+  <data name="ErrorMessage_WizardCancelInternalError" xml:space="preserve">
+    <value>Internal error</value>
+  </data>
+  <data name="MessageBox_NPMError" xml:space="preserve">
+    <value>NPM is required to download the XRM type definitions. Install Node.js and the npm package manager. https://nodejs.org</value>
+  </data>
+  <data name="SdkVersionPicker_LicenseAccept_TextBlock_Content" xml:space="preserve">
+    <value>OK accepts any license agreements for this package</value>
+  </data>
+  <data name="SdkVersionPicker_LicenseInfoText_TextBlock_Text" xml:space="preserve">
+    <value>License Info</value>
+  </data>
+  <data name="NuGetPicker_LicenseAccept_TextBlock_Content" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NuGetPicker_LicenseInfoText_TextBlock_Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NpmPicker_LicenseAccept_TextBlock_Content" xml:space="preserve">
+    <value />
+  </data>
+</root>

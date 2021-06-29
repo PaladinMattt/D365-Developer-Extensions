@@ -1,3 +1,7 @@
+#Disclaimer
+This code is forked from https://github.com/tsharp/D365DeveloperExtensions, the below readme is taken directly from there.  This fork provides a new connection method due to internal CRM changes.  
+
+
 # News Update
 It has come to my attention that Jason Lattimer has either made the original D365DeveloperExtensions project private or deleted the repository completely. I fully intend to retain this repository indefiniately and will accept pull requests from the community and attempt to maintain this code base. If you have any questions please reach out to me.
 
